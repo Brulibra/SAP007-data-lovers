@@ -1,4 +1,5 @@
 # Data Lovers Studio Ghibli.
+🚧*Aguardando Refatoração*🚧
 
 
 ## Resumo do Projeto:
