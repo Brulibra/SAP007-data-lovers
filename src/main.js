@@ -8,18 +8,17 @@ function printar(infos) {
 
   document.getElementById("cards").innerHTML = infos.map((cards) =>
     `
-    <div class = "flex-conteiner cards">
-      <div class = "flex-itens poster">
-        <img src = " ${cards.poster}" >
+    <div class = "conteinerCards">
+      <div class = "moviePoster">
+        <img class = "poster" src = "${cards.poster}" >
         </div>
-        <div class = "flex-itens infos">
+        <div class = "movieInfos">
       <h1>  ${cards.title}</h1>
-        <p> <b>Description</b> </P>
-        <p>  ${cards.description}</p>
-        <p> <b>Director</b> ${cards.director}</p>
-        <p> <b>Producer</b> ${cards.producer}</p>
-        <p> <b>Release Date</b> ${cards.release_date}</p>
-        <p> <b>Score</b> ${cards.rt_score}</p>
+        <p class="spacingLine">  ${cards.description}</p>
+        <p class="spacingLine"> <b>Director</b> ${cards.director}</p>
+        <p class="spacingLine"> <b>Producer</b> ${cards.producer}</p>
+        <p class="spacingLine"> <b>Release Date</b> ${cards.release_date}</p>
+        <p class="spacingLine"> <b>Score</b> ${cards.rt_score}</p>
         </div>
       </div>
     `
